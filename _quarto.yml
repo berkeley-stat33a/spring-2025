@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: https://berkeley-stat33a.github.io/spring-2025/
+  site-url: https://stat33a.berkeley.edu/spring-2025/
   sidebar:
     style: docked
     title: "Stat 33a"
@@ -10,7 +10,7 @@ website:
     logo-alt: "UC Berkeley Statistics logo"
     tools:
       - icon: github
-        href: https://github.com/berkeley-cdss/course-site-quarto
+        href: https://github.com/berkeley-stat33a/spring-2025/
         aria-label: GitHub
     contents:
       - href: index.qmd
