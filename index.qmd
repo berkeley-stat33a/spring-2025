@@ -1,6 +1,6 @@
 ---
-title: "Department 999: Generic Class"
-subtitle: "UC Berkeley, Spring 2024"
+title: "Stat 33a: Introduction to Programming in R"
+subtitle: "UC Berkeley, Spring 2025"
 listing:
   - id: schedule
     template: _extensions/qmd-lab/course-website-ejs/schedule-badge/schedule.ejs
