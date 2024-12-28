@@ -1,0 +1,36 @@
+---
+title: "4) Matrices"
+---
+
+
+## 📖 Lecture
+
+We continue describing more atomic objects such as arrays (N-dimensional objects) and matrices (2-dimensional arrays).
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Create simple matrices with `matrix()`
+- Describe and give examples of matrix subsetting (subscripting, indexing)
+- Explain in what sense a matrix is a 2-dimensional object
+ 
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html</a>
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html</a>
+
+
+
+## 🔬 Lab
+
+You will get your hands “dirty” writing basic functions, and conditional statements.
+
+
+
+

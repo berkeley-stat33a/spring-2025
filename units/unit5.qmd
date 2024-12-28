@@ -1,0 +1,34 @@
+---
+title: "5) Lists"
+---
+
+
+## 📖 Lecture
+
+In this week, we discuss __lists__, which are the most generic kind of data container in R.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Describe in what sense a list is a one-dimensional object
+- Describe in what sense a list is like a "train with wagons"
+- provide an example of subsetting with single brackets (e.g. `lis[index]`)
+- provide an example of subsetting with double brackets, and a single element `lis[[index]]`)
+- provide a manipulation example with the dollar operator (e.g. `lis$wagon`)
+
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html</a>
+
+
+
+## 🔬 Lab
+
+You will work creating and manipulating lists.
+
+

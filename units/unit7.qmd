@@ -1,0 +1,33 @@
+---
+title: "7) Conditionals"
+---
+
+
+## 📖 Lecture
+
+If-else statements are one of the fundamental programming structures available in all programming languages. 
+
+Simply put, an if-else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Write if-else statements to handle simple conditions
+- Use if-else statements when writing functions to decide what code to execute
+ 
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html</a>
+
+
+
+## 🔬 Lab
+
+You will be writing more functions, including if-else statements as part of the body of a function to handle one or more conditions.
+
+

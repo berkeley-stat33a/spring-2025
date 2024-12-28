@@ -1,0 +1,32 @@
+---
+title: "9) Iterations"
+---
+
+
+## 📖 Lecture
+
+In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Write for loops to repeat the same operation a given number of times
+  
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html</a>
+
+
+
+
+## 🔬 Lab
+
+You will practice writing basic loops in R.
+
+
+

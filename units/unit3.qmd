@@ -1,42 +1,36 @@
 ---
-title: "Unit 3: More"
-format:
-  html:
-    code-fold: show
-    code-tools: true
-    include-before-body:
-     - file: macros.md
-  pdf: 
-    include-before-body:
-     - file: macros.tex
+title: "3) More about Vectors"
 ---
 
-[UNDER CONSTRUCTION]
 
-This is an example of using qmd as the source document with pdf as one target. I've taken out the qmd stuff that doesn't seem to render to pdf.
+## 📖 Lecture
 
-## Evaluated Python code chunk, with a plot
+We continue describing more aspects about vectors, specifically the so-called subsetting also known as indexing or subscripting.
 
-```{python}
-import numpy as np
-x = np.random.normal(size=100)
-import matplotlib.pyplot as plt
-plt.hist(x)
-plt.show()
-np.mean(x)
-```
+- __subsetting__ (aka subscripting, subindexing, indexing): the use of single/double brackets to subset (i.e. subscript, index) elements of a vector.
 
 
-## LaTeX
 
-$$
-\theta = \int_0^\infty f(x,\theta)d\theta
-$$
+## 🎯 Objectives
 
-## LaTeX macro
+At the end of this week you will be able to:
 
-> **Warning**: having `include-before-body` in the yaml header of this file, as seemingly needed to enable macros, causes extra space at top of page.
+- Use brackets to subset elements of a vector
+- Provide an example of numeric subsetting
+- Provide an example of logical subsetting
+- Provide an example of character subsetting
 
-$$
-A = X \trans Y
-$$
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html</a>
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html</a>
+
+
+
+## 🔬 Lab
+
+Manipulation of basic data objects in R using bracket notation.
+

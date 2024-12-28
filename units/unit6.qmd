@@ -1,0 +1,35 @@
+---
+title: "6) Intro to Functions"
+---
+
+
+## 📖 Lecture
+
+You don't need to be an expert programmer to use R, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease. We'll discuss how to write basic functions, and the notion of R expressions.
+ 
+ 
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Describe the main parts of a function (i.e. anatomy of a function)
+- Give a simple example for creating a function
+- Explain the concept of an R compound expression
+
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a>
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html</a>
+
+
+
+## 🔬 Lab
+
+You will practice creating simple functions.
+
+
+

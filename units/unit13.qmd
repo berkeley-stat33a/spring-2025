@@ -1,0 +1,33 @@
+---
+title: "13) More dplyr & ggplot"
+---
+
+
+## 📖 Lecture
+
+In our last week of instruction we review more examples and operations with tidyverse packages dplyr and ggplot2.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Describe the so-called pipe operators
+- Write basic `"dplyr"` pipelines
+- Build pipelines involving `"dplyr"` and `"ggplot"` commands
+  
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html</a>
+
+
+
+## 🔬 Lab
+
+You will keep practicing dplyr + ggplot pipelines.
+
+
+

@@ -1,0 +1,22 @@
+---
+title: "14) More Tidyverse"
+---
+
+
+## 📖 Lecture
+
+We close the semester with a final review of tidyverse commands.
+
+
+
+## 📚 Reading
+
+None.
+
+
+
+## 🔬 Lab
+
+None.
+
+
