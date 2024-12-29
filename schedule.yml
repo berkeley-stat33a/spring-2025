@@ -11,7 +11,7 @@
         - type: "Lecture"
           id: ""
           name: "Welcome to STAT 33A (slides)"
-          href: "slides/stat133-00-intro1-welcome.pdf"
+          href: "slides/lec01-about.pdf"
     - date: "Jan 27"
       items:
         - type: "Labwork"
@@ -33,7 +33,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec02-vectors-part1.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -69,7 +69,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part2.pdf"
+            href: "slides/lec03-vectors-part2.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -99,7 +99,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec04-matrices.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -139,7 +139,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec05-lists.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -165,7 +165,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec06-intro-functions.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -201,7 +201,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec07-conditionals.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -233,7 +233,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html"
           auxil:
             id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
+            href: "slides/lec08-data-frames.pdf"
           auxil2:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
