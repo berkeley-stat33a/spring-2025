@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.6.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Stat 33a: Introduction to Programming in R</title>
+<title>STAT 33A: Introduction to Programming in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.ico" rel="icon">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -37,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-79bb3942e891885f9f7af119cd221462.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-115b3999831d24a838921f6d8ad945e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -125,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CES9J82GLL"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -186,9 +196,9 @@ window.Quarto = {
       <img src="./assets/stat_bear.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Stat 33a</a> 
+      <a href="./">STAT 33A <br><small>Spring 2025</small></a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/berkeley-cdss/course-site-quarto" title="" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/berkeley-stat33a/spring-2025/" title="" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -213,14 +223,8 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Staff</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./calendar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Calendar</span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -235,35 +239,136 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./units/unit1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Unit 1: Intro</span></a>
+ <span class="menu-text">1) Intro</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./units/unit2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Unit 2: Next</span></a>
+ <span class="menu-text">2) R Vectors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./units/unit3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Unit 3: More</span></a>
+ <span class="menu-text">3) More about Vectors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4) Matrices</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5) Lists</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6) Intro to Functions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7) Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8) Data Frames</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9) Iterations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10) More Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11) dplyr</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12) ggplot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13) More dplyr &amp; ggplot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14) More Tidyverse</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Other</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Datasets</span></a>
+  <a href="./staff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Staff</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cheatsheets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cheatsheets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./email.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Email</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./faqs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ed Netiquette</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ed-netiquette.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./license.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">License</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -274,7 +379,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule 📅</a></li>
   </ul>
 </nav>
     </div>
@@ -283,8 +388,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Stat 33a: Introduction to Programming in R</h1>
-<p class="subtitle lead">UC Berkeley, Spring 2025</p>
+<h1 class="title">STAT 33A: Introduction to Programming in R</h1>
 </div>
 
 
@@ -303,257 +407,1421 @@ window.Quarto = {
 
 <div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
 
-  <button style="background-color: purple;"><a href="https://berkeley.edu" target="_blank">Ed</a></button>
+  <button style="background-color: #e7298a;"><a href="https://bcourses.berkeley.edu/courses/1541156">bCourses</a></button>
 
-  <button style="background-color: green;"><a href="https://berkeley.edu" target="_blank">DataHub</a></button>
+  <button style="background-color: #7570b3;"><a href="https://edstem.org/us/courses/62340/discussion/">Ed</a></button>
 
-  <button style="background-color: red;"><a href="https://berkeley.edu" target="_blank">Gradescope</a></button>
-
-  <button style="background-color: blue;"><a href="https://berkeley.edu" target="_blank">bCourses</a></button>
+  <button style="background-color: #666666;"><a href="https://r.datahub.berkeley.edu">R-DataHub</a></button>
 
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<p>[UNDER CONSTRUCTION]</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Welcome to Week 1 of Dept 999">
+<div class="callout callout-style-default callout-note callout-titled" title="Announcements 📣">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Welcome to Week 1 of Dept 999
+Announcements 📣
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Welcome to Week 2">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Welcome to Week 2
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Things are picking up now.</p>
+<p>See you on Wed Jan-22!</p>
+<p>More announcements in bCourses</p>
 </div>
 </div>
 <section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<p>Here we use Quarto’s EJS templating.</p>
+<h2 class="anchored" data-anchor-id="schedule">Schedule 📅</h2>
+<p>Tentative calendar subject to change.</p>
 <div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
-<style>
-.label {
-    border-radius: 9px;
-    padding: 5px;
-    color: white;
-}
 
-.label-Lecture { background-color: #4767FF}
-.label-Participation { background-color:  #7A2CAB}
-.label-Lab { background-color: #facd05}
-.label-Homework { background-color: crimson}
-.label-Exam { background-color: green}
-
-#th-schedule {
-    width: 15%;
-    text-align: center;
-}
-
-#td-schedule:first-of-type {
-    width: 55%;
-}
-
-#td-schedule:last-of-type {
-    width: 30%;
-}
-
-table {
-    border: 2px solid;
-}
-
-.border {
-  color:#069;
-  font-weight: bold;
-}
-
-a.unpublished {
-  color:#808080
-}
-
-</style>
-
-   <h4 class="anchored">Week 1</h4>
+   <h4 class="anchored">Unit 1</h4>
 
    <table class="table" data-quarto-disable-processing="true">
    <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
    <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
    
    <tbody>
-   
-
-        
-
-           <tr>
-           
-           
-           
-           
-           <th id="th-schedule" scope="row" rowspan="2">Aug 23:</th>
-           
-           
-              <td id="td-schedule"><strong class="label label-Lecture">Lecture 1</strong> <a href="./units/unit1.html" target="_blank">Introduction</a></td>
-           
-           
-                <td id="td-schedule">
-                
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit1.html" target="_blank">Unit 1: Introduction</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
-                    <a href="https://berkeley.edu">Note 1</a>
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Jan 22</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="slides/lec01-about.pdf" target="_blank">Welcome to STAT 33A (slides)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Jan 27</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842192" target="_blank">Lab 1: Intro to R and RStudio</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
-                  
-                    <a href="https://berkeley.edu">Note 2</a>
-                  
-                  
-                </td>
-           
-                
-           </tr>
-        
-
-           <tr>
-           
-           
-           
-           
-           
-              <td id="td-schedule"><strong class="label label-Participation">Participation 1</strong> <a href="https://berkeley.edu" target="_blank">Lecture Participation 1</a></td>
-           
-           
-                <td></td>
-           
-                
-           </tr>
-        
-   
-
-        
-
-           <tr>
-           
-           
-           
-           
-           <th id="th-schedule" scope="row" rowspan="3">Aug 25:</th>
-           
-           
-              <td id="td-schedule"><strong class="label label-Lecture">Lecture 2</strong> <a href="./units/unit2.html" target="_blank">Next</a></td>
-           
-           
-                <td id="td-schedule">
-                
-                  
-                    <a href="https://berkeley.edu">Note 1</a>
-                  
-                  
-                  
-                    <a href="https://berkeley.edu">Note 2</a>
-                  
-                  
-                </td>
-           
-                
-           </tr>
-        
-
-           <tr>
-           
-           
-           
-           
-           
-              <td id="td-schedule"><strong class="label label-Homework">Homework 1A</strong> <a href="https://berkeley.edu" target="_blank">Plotting and Permutation Test (due Aug 31)</a></td>
-           
-           
-                <td></td>
-           
-                
-           </tr>
-        
-
-           <tr>
-           
-           
-           
-           
-           
-              <td id="td-schedule"><strong class="label label-Homework">Homework 1B</strong> <a href="https://berkeley.edu" target="_blank">Prerequisite Math (due Aug 31)</a></td>
-           
-           
-                <td></td>
-           
-                
-           </tr>
-        
-   
-   </tbody>
+             </tr>
+          
+     
+     </tbody>
+  
    </table>
   
 
-   <h4 class="anchored">Week 2</h4>
+   <h4 class="anchored">Unit 2</h4>
 
    <table class="table" data-quarto-disable-processing="true">
    <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
    <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
    
    <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit2.html" target="_blank">Unit 2: Vectors I</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="2">Jan 29</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html" target="_blank">Vectors, part 1 (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+  
+  
+  
+             <tr>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html" target="_blank">Vectors, part 2 (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Feb 3</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842193" target="_blank">Lab 2: Vectors  (due 2/05)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842186" target="_blank">HW 1: Vectors (avail 2/01, due 2/14)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 3</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
    
-
-        
-
-           <tr>
-           
-           
-           
-           
-           <th id="th-schedule" scope="row" rowspan="2">Aug 29:</th>
-           
-           
-              <td id="td-schedule"><strong class="label label-Lecture">Lecture 3</strong> <a href="./units/unit2.html" target="_blank">Pandas 1</a></td>
-           
-           
-                <td></td>
-           
-                
-           </tr>
-        
-
-           <tr>
-           
-           
-           
-           
-           
-              <td id="td-schedule"><strong class="label label-Participation">Participation 2</strong> <a href="./units/unit3.html" target="_blank">Lecture Participation 2</a></td>
-           
-           
-                <td id="td-schedule">
-                
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit3.html" target="_blank">Unit 3: Vectors II</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
-                    <a href="https://berkeley.edu">Note 3</a>
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="2">Feb 5</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html" target="_blank">More about Vectors</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
+             </tr>
+          
+  
+  
+  
+             <tr>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html" target="_blank">Vectors, part 4 (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
                   
-                </td>
-           
-                
-           </tr>
-        
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Feb 10</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842194" target="_blank">Lab 3: More Vectors  (due 2/12)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 4</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
    
-   </tbody>
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit4.html" target="_blank">Unit 4: Other Objects</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="2">Feb 12</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html" target="_blank">Matrices (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+  
+  
+  
+             <tr>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html" target="_blank">Matrices Operations (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="2">Feb 17</th>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> HOLIDAY</td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+  
+  
+  
+             <tr>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842195" target="_blank">Lab 4: Matrices (ungraded)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842187" target="_blank">HW 2: Vectors (avail 2/15, due 2/28)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 5</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit5.html" target="_blank">Unit 5: Lists</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Feb 19</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html" target="_blank">Lists</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Feb 24</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842196" target="_blank">Lab 5: Lists (due 2/26)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 6</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit6.html" target="_blank">Unit 6: Intro to Functions</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="2">Feb 26</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">Functions (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+  
+  
+  
+             <tr>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html" target="_blank">Expressions (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 3</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842197" target="_blank">Lab 6: Functions (due 3/05)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842188" target="_blank">HW 3: Functions (avail 3/01, due 3/14)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 7</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit7.html" target="_blank">Unit 7: Conditionals</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 5</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html" target="_blank">Conditionals (notes)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 7</th>
+             
+             
+               <td><strong class="label label-Quiz">Quiz </strong> Quiz-1, More info TBA</td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 10</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842198" target="_blank">Lab 7: Conditionals (due 3/12)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 8</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit8.html" target="_blank">Unit 8: Data Frames</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 12</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html" target="_blank">Data Frames</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 17</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842199" target="_blank">Lab 8: Data Frames (due 3/18)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842189" target="_blank">HW 4: Data Frames (avail 3/15, due 4/04)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 9</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit9.html" target="_blank">Unit 9: Loops</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 19</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html" target="_blank">For Loops</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 24</th>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> Spring Recess</td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 26</th>
+             
+             
+               <td><strong class="label label-Lectur2">Lectur2 </strong> Spring Recess</td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Mar 31</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842200" target="_blank">Lab 9: For Loops (due 4/02)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 10</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit10.html" target="_blank">Unit 10: More Loops</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 2</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html" target="_blank">More Loops</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 7</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842201" target="_blank">Lab 10: While Loops (due 4/09)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842190" target="_blank">HW 5: Data Frames (avail 4/05, due 4/18)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 11</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit11.html" target="_blank">Unit 11: dplyr</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 9</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html" target="_blank">Intro to dplyr</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 11</th>
+             
+             
+               <td><strong class="label label-Quiz">Quiz </strong> Quiz-2, More info TBA</td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 14</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842202" target="_blank">Lab 11: Intro to dplyr (due 4/16)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 12</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit12.html" target="_blank">Unit 12: ggplot</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 16</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">Intro to ggplot</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 21</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842203" target="_blank">Lab 12: Intro to ggplot (due 4/23)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">HW</th>
+             
+             
+               <td><strong class="label label-Homework">Homework </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842191" target="_blank">HW 6: dplyr and ggplot (avail 4/19, due 5/02)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 13</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit13.html" target="_blank">Unit 13: More dplyr &amp; ggplot</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 23</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">More dplyr &amp; ggplot</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 28</th>
+             
+             
+               <td><strong class="label label-Labwork">Labwork </strong> <a href="https://bcourses.berkeley.edu/courses/1541156/assignments/8842204" target="_blank">Lab 13: More dplyr &amp; ggplot (due 4/30)</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
+   </table>
+  
+
+   <h4 class="anchored">Unit 14</h4>
+
+   <table class="table" data-quarto-disable-processing="true">
+   <!-- 'table' class causes use of quarto styling for tables, seemingly from bootstrap.min.css -->
+   <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
+   
+   <tbody>
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">About</th>
+             
+             
+               <td><strong class="label label-Overview">Overview </strong> <a href="./units/unit14.html" target="_blank">Unit 14: More tidyverse</a></td>
+             
+             
+               <td> </td>
+             
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+  
+          
+  
+  
+  
+             <tr>
+             
+             <th scope="row" rowspan="1">Apr 30</th>
+             
+             
+               <td><strong class="label label-Lecture">Lecture </strong> More tidyverse</td>
+             
+             
+               <td><a href="" target="_blank"></a></td>
+              
+             
+               <td> </td>
+             
+                  
+             </tr>
+          
+     
+     </tbody>
+  
    </table>
   
 
@@ -659,7 +1927,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/berkeley-stat33a\.github\.io\/spring-2025\/");
+      var filterRegex = new RegExp("https:\/\/stat33a\.berkeley\.edu\/spring-2025\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
