@@ -66,7 +66,7 @@ Yes. We expect that most of you come without any coding experience. It is nice t
 
 <br>
 
-__Is this course a good fit if I don't have any data analysis experience?__ <br>
+__Is this course a good fit if I already have some programming experience?__ <br>
 No. If you already have some previous coding experience, then you should take more advanced courses (e.g. STAT 33B, STAT 133).
 
 <br>
@@ -82,7 +82,7 @@ Yes. But you don't learn programming by watching someone else program. The same 
 <br>
 
 __Can I ask you to write me a Letter of Recommendation (LoR)?__ <br>
-No. One-unit courses do not provide me with enough information about students to write a strong letter of recommendation. Therefore, I am unwilling to provide a LoR based on your work on this course alone.
+One-unit courses do not provide me with enough information about students to write a strong letter of recommendation. Therefore, I am unwilling to provide a LoR based on your work on this course alone.
 
 <br>
 

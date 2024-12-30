@@ -46,9 +46,9 @@ website:
           - href: email.qmd
             text: Email
           - href: faqs.qmd
-            text: "Ed Netiquette"
-          - href: ed-netiquette.qmd
             text: FAQs
+          - href: ed-netiquette.qmd
+            text: "Ed Netiquette"
           - href: license.qmd
             text: License
           

@@ -381,7 +381,7 @@
       items:
         - type: "Homework"
           id: ""
-          name: "HW 6: dplyr and ggplot (avail 4/19, due 5/02)"
+          name: "HW 6: dplyr & ggplot (avail 4/19, due 5/02)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842191"
 - week: 13
   days:
