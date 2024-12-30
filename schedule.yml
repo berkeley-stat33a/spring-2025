@@ -31,15 +31,15 @@
           id: ""
           name: "Vectors, part 1 (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec02-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec02-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
         - type: "Lectur2"
           id: ""
-          name: "Vectors, part 4 (notes)"
+          name: "Vectors, part 2 (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html"
     - date: "Feb 3"
       items:
@@ -67,12 +67,12 @@
           id: ""
           name: "More about Vectors"
           href: "https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec03-vectors-part2.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec03-vectors-part2.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
         - type: "Lectur2"
           id: ""
           name: "Vectors, part 4 (notes)"
@@ -97,12 +97,12 @@
           id: ""
           name: "Matrices (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec04-matrices.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec04-matrices.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
         - type: "Lectur2"
           id: ""
           name: "Matrices Operations (notes)"
@@ -137,12 +137,12 @@
           id: ""
           name: "Lists"
           href: "https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec05-lists.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec05-lists.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Feb 24"
       items:
         - type: "Labwork"
@@ -163,12 +163,12 @@
           id: ""
           name: "Functions (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec06-intro-functions.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec06-intro-functions.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
         - type: "Lectur2"
           id: ""
           name: "Expressions (notes)"
@@ -199,12 +199,12 @@
           id: ""
           name: "Conditionals (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec07-conditionals.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec07-conditionals.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Mar 7"
       items:
         - type: "Quiz"
@@ -231,12 +231,12 @@
           id: ""
           name: "Data Frames"
           href: "https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html"
-          auxil:
-            id: "Slides"
-            href: "slides/lec08-data-frames.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/lec08-data-frames.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Mar 17"
       items:
         - type: "Labwork"
@@ -263,12 +263,12 @@
           id: ""
           name: "For Loops"
           href: "https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html"
-          auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Mar 24"
       items:
         - type: "Lectur2"
@@ -301,12 +301,12 @@
           id: ""
           name: "More Loops"
           href: "https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html"
-          auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Apr 7"
       items:
         - type: "Labwork"
@@ -333,12 +333,12 @@
           id: ""
           name: "Intro to dplyr"
           href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html"
-          auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Apr 11"
       items:
         - type: "Quiz"
@@ -365,12 +365,12 @@
           id: ""
           name: "Intro to ggplot"
           href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"
-          auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Apr 21"
       items:
         - type: "Labwork"
@@ -397,12 +397,12 @@
           id: ""
           name: "More dplyr & ggplot"
           href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html"
-          auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          # auxil:
+          #   id: "Slides"
+          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
     - date: "Apr 28"
       items:
         - type: "Labwork"
@@ -424,8 +424,8 @@
           name: "More tidyverse"
           href: ""
           auxil:
-            id: "Slides"
-            href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          auxil2:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+            id: ""
+            href: ""
+          # auxil2:
+          #   id: "Demo"
+          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
