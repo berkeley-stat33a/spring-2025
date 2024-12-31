@@ -45,7 +45,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 2: Vectors  (due 2/05)"
+          name: "Lab 2: Vectors  (due 2/04)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842193"
     - date: "HW"
       items:
@@ -81,7 +81,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 3: More Vectors  (due 2/12)"
+          name: "Lab 3: More Vectors  (due 2/11)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842194"
 - week: 4
   days:
@@ -147,7 +147,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 5: Lists (due 2/26)"
+          name: "Lab 5: Lists (due 2/25)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842196"
 - week: 6
   days:
@@ -177,7 +177,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 6: Functions (due 3/05)"
+          name: "Lab 6: Functions (due 3/04)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842197"
     - date: "HW"
       items:
@@ -215,7 +215,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 7: Conditionals (due 3/12)"
+          name: "Lab 7: Conditionals (due 3/11)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842198"
 - week: 8
   days:
@@ -265,7 +265,7 @@
           href: "https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html"
           # auxil:
           #   id: "Slides"
-          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          #   href: "slides/lec09-for-loops.pdf"
           # auxil2:
           #   id: "Demo"
           #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -285,7 +285,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 9: For Loops (due 4/02)"
+          name: "Lab 9: For Loops (due 4/01)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842200"
 - week: 10
   days:
@@ -311,7 +311,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 10: While Loops (due 4/09)"
+          name: "Lab 10: While Loops (due 4/08)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842201"
     - date: "HW"
       items:
@@ -335,7 +335,7 @@
           href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html"
           # auxil:
           #   id: "Slides"
-          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          #   href: "slides/lec11-intro-dplyr.pdf"
           # auxil2:
           #   id: "Demo"
           #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -349,7 +349,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 11: Intro to dplyr (due 4/16)"
+          name: "Lab 11: Intro to dplyr (due 4/15)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842202"
 - week: 12
   days:
@@ -367,7 +367,7 @@
           href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"
           # auxil:
           #   id: "Slides"
-          #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
+          #   href: "slides/lec12-intro-ggplot.pdf"
           # auxil2:
           #   id: "Demo"
           #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
@@ -375,7 +375,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 12: Intro to ggplot (due 4/23)"
+          name: "Lab 12: Intro to ggplot (due 4/22)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842203"
     - date: "HW"
       items:
@@ -407,7 +407,7 @@
       items:
         - type: "Labwork"
           id: ""
-          name: "Lab 13: More dplyr & ggplot (due 4/30)"
+          name: "Lab 13: More dplyr & ggplot (due 4/29)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842204"
 - week: 14
   days:
