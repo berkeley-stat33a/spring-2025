@@ -10,10 +10,10 @@ __Lecture__: W 11am-12pm in [VLSB 2040](https://www.berkeley.edu/map/valley-life
 
 __Lab__:
 
-- Lab 101, M 9am-10am, Evans 342 (GSI TBA)
-- Lab 102, M 10am-11am, Evans 342 (GSI TBA)
-- Lab 103, M 12pm-1pm, Evans 342 (GSI TBA)
-- Lab 104, M 1pm-2pm, Evans 342 (GSI TBA)
+- Lab 101, M 9am-10am, Evans 342 (GSI Connor Pestell)
+- Lab 102, M 10am-11am, Evans 342 (GSI Connor Pestell)
+- Lab 103, M 12pm-1pm, Evans 342 (GSI Connor Pestell)
+- Lab 104, M 1pm-2pm, Evans 342 (GSI Connor Pestell)
 
 
 __Code #__: 24027
