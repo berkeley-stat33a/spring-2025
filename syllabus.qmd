@@ -83,7 +83,7 @@ Me (the instructor) and the GSI will offer office hours each week across a range
 - You must attend the lab section you are officially enrolled in.
 - During lab, you will work on short-form assignments designed to apply the concepts on real and simulated data sets.
 - Lab assignments will be released every Monday (available in bCourses), 
-- The due date is always on a __Wednesday at 11:59pm__ (please check the <a href="https://bcourses.berkeley.edu/courses/1541156/assignments" target="_blank">assignments tab</a> in bCourses to keep track of deadlines).
+- The due date is always on a __Tuesday at 11:59pm__ (please check the <a href="https://bcourses.berkeley.edu/courses/1541156/assignments" target="_blank">assignments tab</a> in bCourses to keep track of deadlines).
 - Solutions to lab assignments will be available a few days after their due date.
 - We will be giving credit on lab assignments based on completion.
 - Lab-1 and Lab-4 will not count toward your grade.
