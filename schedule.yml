@@ -121,7 +121,7 @@
       items:
         - type: "Homework"
           id: ""
-          name: "HW 2: Vectors (avail 2/15, due 2/28)"
+          name: "HW 2: More Objects (avail 2/15, due 2/28)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842187"
 - week: 5
   days:
@@ -317,7 +317,7 @@
       items:
         - type: "Homework"
           id: ""
-          name: "HW 5: Data Frames (avail 4/05, due 4/18)"
+          name: "HW 5: Iterations (avail 4/05, due 4/18)"
           href: "https://bcourses.berkeley.edu/courses/1541156/assignments/8842190"
 - week: 11
   days:
@@ -429,3 +429,11 @@
           # auxil2:
           #   id: "Demo"
           #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+- week: 15
+  days:
+    - date: "May 13"
+      items:
+        - type: "Final"
+          id: ""
+          name: "Final Exam, More info TBA"
+          href: ""
