@@ -107,8 +107,7 @@ Me (the instructor) and the GSI will offer office hours each week across a range
 
 ## 🕚 Late Submission Policy {#late-policy}
 
-Given that STAT 33A is a 1-unit course we won't be able to offer extensions. 
-Instead, we have the following late submission policy.
+Given that STAT 33A is a 1-unit course, unless you have applicable DSP accommodations, we won't be able to offer extensions. Instead, we have the following late submission policy.
 
 In case you are not able to turn in a Lab assignment on time:
 
