@@ -31,12 +31,9 @@
           id: ""
           name: "Vectors, part 1 (notes)"
           href: "https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html"
-          # auxil:
-          #   id: "Slides"
-          #   href: "slides/lec02-vectors-part1.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90909922"
         - type: "Lectur2"
           id: ""
           name: "Vectors, part 2 (notes)"
@@ -67,12 +64,9 @@
           id: ""
           name: "More about Vectors"
           href: "https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html"
-          # auxil:
-          #   id: "Slides"
-          #   href: "slides/lec03-vectors-part2.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90909954"
         - type: "Lectur2"
           id: ""
           name: "Vectors, part 4 (notes)"
