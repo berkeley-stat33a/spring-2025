@@ -94,9 +94,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec04-matrices.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91028738"
         - type: "Lectur2"
           id: ""
           name: "Matrices Operations (notes)"
@@ -134,9 +134,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec05-lists.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91028739"
     - date: "Feb 24"
       items:
         - type: "Labwork"
