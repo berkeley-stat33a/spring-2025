@@ -160,9 +160,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec06-intro-functions.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91097287"
         - type: "Lectur2"
           id: ""
           name: "Expressions (notes)"
