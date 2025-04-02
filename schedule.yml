@@ -228,9 +228,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec08-data-frames.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91232997"
     - date: "Mar 17"
       items:
         - type: "Labwork"
@@ -260,9 +260,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec09-for-loops.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91316163"
     - date: "Mar 24"
       items:
         - type: "Lectur2"
