@@ -203,7 +203,7 @@
       items:
         - type: "Quiz"
           id: ""
-          name: "Quiz-1, More info TBA"
+          name: "Quiz-1, See bCourses"
           href: ""
     - date: "Mar 10"
       items:
@@ -337,7 +337,7 @@
       items:
         - type: "Quiz"
           id: ""
-          name: "Quiz-2, More info TBA"
+          name: "Quiz-2, See bCourses"
           href: ""
     - date: "Apr 14"
       items:
