@@ -298,9 +298,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91440449"
     - date: "Apr 7"
       items:
         - type: "Labwork"
@@ -330,9 +330,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec11-intro-dplyr.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90909922"
     - date: "Apr 11"
       items:
         - type: "Quiz"
