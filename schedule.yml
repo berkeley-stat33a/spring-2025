@@ -362,9 +362,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/lec12-intro-ggplot.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91505033"
     - date: "Apr 21"
       items:
         - type: "Labwork"
@@ -394,9 +394,9 @@
           # auxil:
           #   id: "Slides"
           #   href: "slides/stat133-01-objs1-vectors-part1.pdf"
-          # auxil2:
-          #   id: "Demo"
-          #   href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=90268962"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1541156/files/folder/demos?preview=91571799"
     - date: "Apr 28"
       items:
         - type: "Labwork"
